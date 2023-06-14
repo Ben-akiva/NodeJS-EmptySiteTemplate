@@ -19,5 +19,11 @@ npm run start &'''
       }
     }
 
+    stage('test') {
+      steps {
+        sh 'curl localhost:8080'
+      }
+    }
+
   }
 }
