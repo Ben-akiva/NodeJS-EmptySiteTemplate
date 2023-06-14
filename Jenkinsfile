@@ -14,7 +14,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'node server'
+        sh 'npm install package.json'
       }
     }
 
